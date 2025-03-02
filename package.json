@@ -1,5 +1,5 @@
 {
-  "homepage": "https://quickheaven.github.io/quickheaven/portfolio",
+  "homepage": ".",
   "name": "portfolio",
   "version": "0.1.0",
   "dependencies": {
@@ -19,7 +19,7 @@
   "scripts": {
     "dev": "parcel ./src/index.html",
     "prebuild-dev": "shx rm -rf dist/*",
-    "build-dev": "parcel ./src/index.html --no-optimize --public-url ./",
+    "build-dev": "parcel ./src/index.html --public-url ./",
     "prebuild": "shx rm -rf dist/*",
     "build": "parcel ./src/index.html --public-url ./",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"  
