@@ -2,6 +2,19 @@
   "homepage": "https://quickheaven.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel ./src/index.html --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel ./src/index.html --public-url ./",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"  
+  }, 
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "", 
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
     "express": "^4.16.4",
@@ -15,14 +28,6 @@
     "react-router-dom": "^6.4.2",
     "redux": "^4.0.1",
     "uuid": "^3.3.2"
-  },
-  "scripts": {
-    "dev": "parcel ./src/index.html",
-    "prebuild-dev": "shx rm -rf dist/*",
-    "build-dev": "parcel ./src/index.html --public-url ./",
-    "prebuild": "shx rm -rf dist/*",
-    "build": "parcel ./src/index.html --public-url ./",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"  
   },
   "devDependencies": {
     "process": "^0.11.10",
