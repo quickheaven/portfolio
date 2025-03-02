@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "parcel ./src/index.html",
     "prebuild-dev": "shx rm -rf dist/*",
-    "build-dev": "parcel ./src/index.html --public-url ./",
+    "build-dev": "parcel ./src/index.html --public-url 'https://quickheaven.github.io/portfolio'",
     "prebuild": "shx rm -rf dist/*",
-    "build": "parcel ./src/index.html --public-url ./",
+    "build": "parcel ./src/index.html --public-url https://quickheaven.github.io/portfolio",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"  
   }, 
   "keywords": [],
