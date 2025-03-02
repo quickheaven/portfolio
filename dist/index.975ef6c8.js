@@ -2992,7 +2992,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Browser
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","history":"iE5Zp","./components/Header":"hsJbF","./components/App":"ey9du","./components/Jokes":"azgA9","./projects/music-master":"271LQ","./projects/even-or-odds":"bLVIU","./index.css":"irmnC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./projects/reaction":"2WdFp"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","history":"iE5Zp","./components/Header":"hsJbF","./components/App":"ey9du","./components/Jokes":"azgA9","./projects/music-master":"271LQ","./projects/even-or-odds":"bLVIU","./projects/reaction":"2WdFp","./index.css":"irmnC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -40256,7 +40256,7 @@ $RefreshReg$(_c, "GameState");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9z0Rg":[function() {},{}],"irmnC":[function() {},{}],"2WdFp":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"bdVon","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9z0Rg":[function() {},{}],"2WdFp":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$85e1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -50675,6 +50675,6 @@ const setUsername = (username)=>({
         username
     });
 
-},{"./types":"8gyZP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"giqBE":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire2041")
+},{"./types":"8gyZP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"giqBE":[function() {},{}],"irmnC":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire2041")
 
 //# sourceMappingURL=index.975ef6c8.js.map

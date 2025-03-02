@@ -156,13 +156,13 @@ h1, h2, h3, h4, h5 {
 
 @font-face {
   font-family: RobotoCondensed;
-  src: url("roboto-condensed.light.a5f9c5f3.ttf");
+  src: url("roboto-condensed.light.36ca4b97.ttf");
   font-weight: 800;
 }
 
 @font-face {
   font-family: EconomicaBold;
-  src: url("economica-bold.a4fc1a89.ttf");
+  src: url("economica-bold.5f74dec5.ttf");
 }
 
 body {
@@ -216,13 +216,13 @@ h1, h2, h3, h4, h5 {
 
 @font-face {
   font-family: RobotoCondensed;
-  src: url("roboto-condensed.light.36ca4b97.ttf");
+  src: url("roboto-condensed.light.a5f9c5f3.ttf");
   font-weight: 800;
 }
 
 @font-face {
   font-family: EconomicaBold;
-  src: url("economica-bold.5f74dec5.ttf");
+  src: url("economica-bold.a4fc1a89.ttf");
 }
 
 body {
