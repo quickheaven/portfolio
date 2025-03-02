@@ -33873,8 +33873,8 @@ var _redux = require("redux");
 var _reduxThunk = require("redux-thunk");
 var _reduxThunkDefault = parcelHelpers.interopDefault(_reduxThunk);
 parcelHelpers.exportAll(_redux, exports);
-var process = require("process");
 var global = arguments[3];
+var process = require("process");
 var __extends = undefined && undefined.__extends || function() {
     var extendStatics = function(d, b) {
         extendStatics = Object.setPrototypeOf || ({
