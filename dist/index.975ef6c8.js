@@ -2921,7 +2921,7 @@ var _reaction = require("./projects/reaction");
 var _reactionDefault = parcelHelpers.interopDefault(_reaction);
 var _indexCss = require("./index.css");
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.HashRouter), {
     history: (0, _history.createBrowserHistory)(),
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
         children: [

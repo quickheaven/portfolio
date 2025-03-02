@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter  } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import Header from './components/Header';
 import App from './components/App';
@@ -13,7 +13,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <BrowserRouter history={createBrowserHistory()}>
+    <HashRouter  history={createBrowserHistory()}>
         <Routes>
             <Route path='/' element={<Header><App /></Header>} />
             <Route path='/jokes' element={<Header><Jokes /></Header>} />
@@ -21,5 +21,5 @@ root.render(
             <Route path='/even-or-odds' element={<Header><EvensOrOdds /></Header>} />            
             <Route path='/reaction' element={<Header><Reaction /></Header>} />
         </Routes>
-    </BrowserRouter>
+    </HashRouter >
 );
